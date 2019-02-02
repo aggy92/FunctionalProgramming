@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11839ec1-8d5a-4131-9076-383801064fca" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/data/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/data/StudentDataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/ConsumerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/BiConsumerExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,7 +21,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
@@ -36,8 +34,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="51">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#63#64#0" expanded="true" />
                 <element signature="e#112#113#0" expanded="true" />
@@ -49,11 +47,10 @@
       <file leaf-file-name="ImperativeVsDeclarative.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/imperativevsdeclarative/ImperativeVsDeclarative.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-82">
-              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="323">
+              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#sumWithImperativeApporach#0;class#ImperativeVsDeclarative#0" />
                 <element signature="method#sumWithDeclarativeApproach#0;class#ImperativeVsDeclarative#0" />
               </folding>
             </state>
@@ -63,14 +60,8 @@
       <file leaf-file-name="RunnableComparison.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lambda/RunnableComparison.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-              <folding>
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="391">
+              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -78,27 +69,35 @@
       <file leaf-file-name="ComparatorComparison.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lambda/ComparatorComparison.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="323">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#387#388#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsumerExample.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConsumerExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/functionalinterfaces/ConsumerExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+            <state relative-caret-position="459">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#795#796#0" expanded="true" />
-                <element signature="e#831#832#0" expanded="true" />
-                <element signature="e#883#884#0" expanded="true" />
-                <element signature="e#931#932#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BiConsumerExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/functionalinterfaces/BiConsumerExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,7 +106,7 @@
       <file leaf-file-name="System.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/System.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
+            <state relative-caret-position="306">
               <caret line="58" selection-start-line="58" selection-end-line="59" />
             </state>
           </provider>
@@ -121,7 +120,7 @@
       <file leaf-file-name="IntStream.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/stream/IntStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
+            <state relative-caret-position="13039">
               <caret line="819" column="28" selection-start-line="819" selection-start-column="28" selection-end-line="819" selection-end-column="28" />
             </state>
           </provider>
@@ -513,10 +512,11 @@
         <option value="$PROJECT_DIR$/src/main/java/lambda/ComparatorComparison.java" />
         <option value="$PROJECT_DIR$/src/main/java/data/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/functionalinterfaces/ConsumerExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/functionalinterfaces/BiConsumerExample.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -528,7 +528,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -583,6 +582,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -607,7 +607,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConsumerExample">
+  <component name="RunManager" selected="Application.BiConsumerExample">
+    <configuration name="BiConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functionalinterfaces.BiConsumerExample" />
+      <module name="FunctionalProgramming_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functionalinterfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="ComparatorComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.ComparatorComparison" />
       <module name="FunctionalProgramming_main" />
@@ -640,11 +651,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="FunctionalProgramming_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="RunnableComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.RunnableComparison" />
@@ -699,19 +705,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.ImperativeVsDeclarative" />
       <item itemvalue="Application.RunnableComparison" />
       <item itemvalue="Application.ComparatorComparison" />
       <item itemvalue="Application.ConsumerExample" />
+      <item itemvalue="Application.BiConsumerExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BiConsumerExample" />
         <item itemvalue="Application.ConsumerExample" />
         <item itemvalue="Application.ComparatorComparison" />
         <item itemvalue="Application.RunnableComparison" />
         <item itemvalue="Application.ImperativeVsDeclarative" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -732,30 +738,30 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32900432" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32900432" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" weight="0.32900432" />
-      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32900432" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -792,20 +798,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/stream/IntStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="819" column="28" selection-start-line="819" selection-start-column="28" selection-end-line="819" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/imperativevsdeclarative/ImperativeVsDeclarative.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
+        <state relative-caret-position="391">
           <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#sumWithImperativeApporach#0;class#ImperativeVsDeclarative#0" />
             <element signature="method#sumWithDeclarativeApproach#0;class#ImperativeVsDeclarative#0" />
           </folding>
         </state>
@@ -813,14 +811,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lambda/RunnableComparison.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="459">
           <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-          <folding>
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -830,7 +822,88 @@
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" selection-start-line="58" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/data/Student.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/stream/IntStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13923">
+          <caret line="819" column="28" selection-start-line="819" selection-start-column="28" selection-end-line="819" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/functionalinterfaces/ConsumerExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#63#64#0" expanded="true" />
+            <element signature="e#112#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/stream/IntStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13039">
+          <caret line="819" column="28" selection-start-line="819" selection-start-column="28" selection-end-line="819" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/imperativevsdeclarative/ImperativeVsDeclarative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#sumWithDeclarativeApproach#0;class#ImperativeVsDeclarative#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lambda/RunnableComparison.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lambda/ComparatorComparison.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -840,21 +913,27 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
+        <state relative-caret-position="306">
           <caret line="58" selection-start-line="58" selection-end-line="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/functionalinterfaces/ConsumerExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+        <state relative-caret-position="459">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/functionalinterfaces/BiConsumerExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
