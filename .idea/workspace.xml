@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11839ec1-8d5a-4131-9076-383801064fca" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/PredicateExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functionalinterfaces/PredicateStudentExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -22,19 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#63#64#0" expanded="true" />
-                <element signature="e#112#113#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ImperativeVsDeclarative.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/imperativevsdeclarative/ImperativeVsDeclarative.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -94,11 +80,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PredicateExample.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PredicateExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/functionalinterfaces/PredicateExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
               <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PredicateStudentExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/functionalinterfaces/PredicateStudentExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -514,6 +512,7 @@
         <option value="$PROJECT_DIR$/src/main/java/functionalinterfaces/ConsumerExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/functionalinterfaces/BiConsumerExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/functionalinterfaces/PredicateExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/functionalinterfaces/PredicateStudentExample.java" />
       </list>
     </option>
   </component>
@@ -608,7 +607,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PredicateExample">
+  <component name="RunManager" selected="Application.PredicateStudentExample">
     <configuration name="BiConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functionalinterfaces.BiConsumerExample" />
       <module name="FunctionalProgramming_main" />
@@ -653,13 +652,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="RunnableComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.RunnableComparison" />
+    <configuration name="PredicateStudentExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functionalinterfaces.PredicateStudentExample" />
       <module name="FunctionalProgramming_main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.*" />
+          <option name="PATTERN" value="functionalinterfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -706,19 +705,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.RunnableComparison" />
       <item itemvalue="Application.ComparatorComparison" />
       <item itemvalue="Application.ConsumerExample" />
       <item itemvalue="Application.BiConsumerExample" />
       <item itemvalue="Application.PredicateExample" />
+      <item itemvalue="Application.PredicateStudentExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PredicateStudentExample" />
         <item itemvalue="Application.PredicateExample" />
         <item itemvalue="Application.BiConsumerExample" />
         <item itemvalue="Application.ConsumerExample" />
         <item itemvalue="Application.ComparatorComparison" />
-        <item itemvalue="Application.RunnableComparison" />
       </list>
     </recent_temporary>
   </component>
@@ -943,6 +942,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/functionalinterfaces/PredicateStudentExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
